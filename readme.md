@@ -1,12 +1,12 @@
 # Emacs package Hotlaunch
-Hotlaunch is used to assign keybindings to buffer name / program names.  Using the keybinding first the predefined buffer name is searched for If the predefined buffer name is not found than the function assosiated with the keybinding is launched. If the buffer is found it is opened in the current window. If the buffer is currently visable the pointer context is moved to the window displaying the buffer of interest.
+Hotlaunch is used to assign keybindings to buffer name / program names.  Using the keybinding first the predefined buffer name is searched for If the predefined buffer name is not found than the function associated with the keybinding is launched. If the buffer is found it is opened in the current window. If the buffer is currently visible the pointer context is moved to the window displaying the buffer of interest.
 
 ## Installing
 From your shell download the source from github:
 
 ```bash
 ## Change to a subdirectory in your local emacs folder
-cd ~/.emacs/lisp/
+cd ~/.emacs.d/lisp/
 curl --location -O https://raw.github.com/alexjgriffith/hotlaunch/master/hotlaunch.el
 ```
 
