@@ -56,7 +56,7 @@ if the buffer is not found than the function is executed. Function should
 create a new buffer with the name `buffer`"
   (interactive "sCombo: \nsBuffer: \naFunction:")
   (lexical-let (( b buffer)(f     function))
-    (global-set-key (kbd combo) (lambda () (interactive)(switch-start-open b f)))
+    (global-set-key (kbd combo) (lambda () (interactive)(hotlaunch-switch-start-open b f)))
     ))
 
 (defun hotlaunch-set-current-buffer-to-key (key)
